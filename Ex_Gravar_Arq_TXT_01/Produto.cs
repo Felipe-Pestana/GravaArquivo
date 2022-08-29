@@ -37,7 +37,7 @@ namespace Ex_Gravar_Arq_TXT_01
 
         public string getData()
         {
-            return Id + ";" + Descricao + ";" + Cadastro.ToString("dd/MM/yyyy") + ";" + Preco.ToString("0.00")+";";
+            return Id + ";" + Descricao + ";" + Cadastro.ToString("dd/MM/yyyy") + ";" + Preco.ToString("0.00");
         }
     }
 }
